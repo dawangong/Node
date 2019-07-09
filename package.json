@@ -1,0 +1,23 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.spec.js",
+    "cover-test": "istanbul cover _mocha *.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "should": "^13.2.3",
+    "superagent": "^5.1.0",
+    "utility": "^1.16.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^6.1.4"
+  }
+}
